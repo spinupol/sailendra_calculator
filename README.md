@@ -1,3 +1,3 @@
 "# sailendra_calculator" 
 
-https://travis-ci.org/spinupol/sailendra_calculator.svg?branch=master
+[![Build Status](https://travis-ci.org/spinupol/sailendra_calculator.svg?branch=master)](https://travis-ci.org/spinupol/sailendra_calculator)
