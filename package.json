@@ -1,10 +1,11 @@
 {
   "name": "sailendra_calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sailendra's Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha ./test/*",
+     "test-travis": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/spinupol/sailendra_calculator/issues"
   },
-  "homepage": "https://github.com/spinupol/sailendra_calculator#readme"
+  "homepage": "https://github.com/spinupol/sailendra_calculator#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
