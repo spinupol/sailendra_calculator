@@ -9,6 +9,5 @@ module.exports = function(a, b, sym) {
         return a / b;
     } else if (sym == "%") {
         return a % b;
-    }
-    else return "not supported";
+    } else return "not supported";
 };
