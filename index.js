@@ -10,4 +10,5 @@ module.exports = function(a, b, sym) {
     } else if (sym == "%") {
         return a % b;
     }
+    else return "not supported";
 };
