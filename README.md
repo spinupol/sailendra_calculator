@@ -5,11 +5,11 @@
 ## Usage
 var operation = require('sailendra_calculator');
 
-console.log(operation(4,2,'+'));
-console.log(operation(4,2,'/'));
-console.log(operation(4,2,'-'));
-console.log(operation(4,2,'%'));
-console.log(operation(4,2,'*'));
+console.log(operation(4,2,'+'));  
+console.log(operation(4,2,'/'));  
+console.log(operation(4,2,'-'));  
+console.log(operation(4,2,'%'));  
+console.log(operation(4,2,'*'));  
 
 ### Output
 6
